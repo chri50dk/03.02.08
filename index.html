@@ -7,6 +7,7 @@
     <meta name="robots" content="noindex">
     <title>Redesign af Minifinans' site</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600" rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
     </header>
 
     <div class="sectionwrapper">
-        <div id="ansoeg">
+        <div id="ansoegformular">
             <div id="overskrift">
                 <h1>DRØMMELÅN FRA MINIFINANS</h1>
                 <h3>UDBETALING PÅ 1 MINUT - ALLE UGENS DAGE</h3>
@@ -39,31 +40,34 @@
     </div>
     <div class="sectionwrapper">
         <h2>SÅDAN GØR DU</h2>
-        <div id="ikon1">
+        <div class="ikoner">
+            <div id="ikon1">
 
 
-            <img src="formular_icon.png" alt="">
-            <h3>UDFYLD ANSØGNING</h3>
-            <p>Det tager kun 2 minutter at oprette en profil hos Minifinans.</p>
-        </div>
+                <img src="formular_icon.png" alt="">
+                <h3>UDFYLD ANSØGNING</h3>
+                <p>Det tager kun 2 minutter at oprette en profil hos Minifinans.</p>
+            </div>
 
-        <div id="ikon2">
-            <img src="nemid_icon.png" alt="">
-            <h3>UNDERSKRIV MED NEMID</h3>
-            <p>Alle låneaftaler skal underskrives med NemID elektronisk.</p>
-        </div>
-        <div id="ikon3">
-            <img src="penge_icon.png" alt="">
-            <h3>MODTAG PENGENE</h3>
-            <p>Så snart vi har godkendt dit lån, sender vi det til straksudbetaling på din NemKonto.</p>
+            <div id="ikon2">
+                <img src="nemid_icon.png" alt="">
+                <h3>UNDERSKRIV MED NEMID</h3>
+                <p>Alle låneaftaler skal underskrives med NemID elektronisk.</p>
+            </div>
+            <div id="ikon3">
+                <img src="penge_icon.png" alt="">
+                <h3>MODTAG PENGENE</h3>
+                <p>Så snart vi har godkendt dit lån, sender vi det til straksudbetaling på din NemKonto.</p>
+            </div>
         </div>
 
     </div>
 
-    <div id="sectionwrapper">
+    <div class="sectionwrapper">
 
         <div id="info1">
-            <div class="image1">
+            <div class="image">
+                <img src="armsupsea.png" alt="">
             </div>
             <div class="txt">
                 <p>MiniFinans er en dansk långiver, der tilbyder kortfristede lån til danskere. MiniFinans er et brand under Finans 247 ApS. Finans 247 ApS er registreret på Bredgade 75, 2. sal, 1260 København K og er registreret hos Finanstilsynet vedrørende lov om forebyggende foranstaltninger mod hvidvask af udbytte og finansiering af terrorisme § 34, stk. 2.
@@ -77,8 +81,7 @@
         </div>
         <div id="info2">
             <div class="image">
-                <figure id="figure1">
-                </figure>
+                <img src="backpackingmountains.png" alt="">
             </div>
             <div class="txt">
                 <p>Vi blander os ikke i, hvad du låner penge til. Du bestemmer altså helt selv om pengene skal bruges på sjov og ballade, en dejlig ferie eller nogle regninger, der skal betales. Denne frihed får du ikke ved et almindeligt banklån, hvor du modsat hos os, ofte bliver bedt om at oplyse, hvad de lånte penge skal bruges til.</p>
@@ -86,8 +89,7 @@
         </div>
         <div id="info3">
             <div class="image">
-                <figure>
-                </figure>
+                <img src="macanddog.png" alt="">
             </div>
             <div class="txt">
 
@@ -97,7 +99,7 @@
         </div>
         <div id="info4">
             <div class="image">
-
+                <img src="coupleguitar.png" alt="">
                 <figure>
                 </figure>
             </div>
@@ -120,26 +122,30 @@
     </div>
     <div class="sectionwrapper">
         <div id="info5">
-            <figure>
-            </figure>
-        </div>
-        <div class="txt">
-            <p>Vil du gerne have det bedste kviklån, er det en god idé at gøre sig nogle overvejelser først. Bruger du vores låneberegner, kan du se hvad vi kan tilbyde dig.</p>
-            <h4>Fuld gennemsigtighed</h4>
-            <p>
-                Hos MiniFinans mener vi selv, at vi har et af markedets bedste lån til dig der står og skal bruge penge hurtigt.
+            <div class="image">
+                <img src="middleoftheroad.png" alt="">
+            </div>
 
-                Du kan låne penge til lige det du står og mangler – Der bliver ikke spurgt, hvad pengene skal bruges til. Det kan være du skal låne penge til en sommerferie, låne penge til iPhone eller noget helt andet – valget er dit.</p>
+            <div class="txt">
+                <p>Vil du gerne have det bedste kviklån, er det en god idé at gøre sig nogle overvejelser først. Bruger du vores låneberegner, kan du se hvad vi kan tilbyde dig.</p>
+                <h4>Fuld gennemsigtighed</h4>
+                <p>
+                    Hos MiniFinans mener vi selv, at vi har et af markedets bedste lån til dig der står og skal bruge penge hurtigt.
+
+                    Du kan låne penge til lige det du står og mangler – Der bliver ikke spurgt, hvad pengene skal bruges til. Det kan være du skal låne penge til en sommerferie, låne penge til iPhone eller noget helt andet – valget er dit.</p>
+            </div>
         </div>
         <div id="info6">
-            <figure>
-            </figure>
-        </div>
-        <div class="txt">
-            <p>Hos MiniFinans, har vi ikke nogle skjulte gebyrer eller renter, fordi vi gerne vil have, at du ved hvad du går ind til, når du optager et lån hos os.</p>
-            <h4>De mange fristelser som studerende</h4>
-            <p>
-                Vi har også gjort vores regler og vilkår gennemskuelige for alle vores kunder – dem finder du i toppen af siden, hvor du kan læse alt om hvad vi kan tilbyde dig. </p>
+            <div class="image">
+                <img src="macandbench.png" alt="">
+            </div>
+
+            <div class="txt">
+                <p>Hos MiniFinans, har vi ikke nogle skjulte gebyrer eller renter, fordi vi gerne vil have, at du ved hvad du går ind til, når du optager et lån hos os.</p>
+                <h4>De mange fristelser som studerende</h4>
+                <p>
+                    Vi har også gjort vores regler og vilkår gennemskuelige for alle vores kunder – dem finder du i toppen af siden, hvor du kan læse alt om hvad vi kan tilbyde dig. </p>
+            </div>
         </div>
     </div>
     <div id="footer"></div>

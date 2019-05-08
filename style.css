@@ -1,9 +1,12 @@
 body {
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
-img {
+#ansoeg img {}
+
+.sectionwrapper img {
     width: 20vw;
     height: 20vw;
 }
@@ -15,15 +18,44 @@ img {
     text-align: center;
 }
 
-
-
-nav {
-    text-align: left;
+#menuknap {
+    font-size:
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: darkgray;
+}
+
+header img {
+    display: block;
+}
 
 #ansoeg {
     flex-basis:
+}
+
+.ikoner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#ikon1 {
+    flex-wrap: wrap;
+}
+
+#ikon2 {
+    flex-wrap: wrap;
+}
+
+#ikon3 {
+    flex-wrap: wrap;
 }
 
 .info1 {
@@ -53,7 +85,6 @@ nav {
     transform-origin: top left;
 }
 
-/*
 @media only screen and (min-width: 600px) {
 
     #menuknap {
@@ -68,4 +99,4 @@ nav {
     #menu li {
         display: inline-block;
     }
-}*/
+}
