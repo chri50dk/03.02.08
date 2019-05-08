@@ -1,13 +1,40 @@
-body {}
+body {
+    margin: 10px;
+    padding: 10px;
+}
 
 img {
-    100%;
+    width: 20vw;
+    height: 20vw;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 
 
+nav {
+    text-align: left;
+}
 
 
+#ansoeg {
+    flex-basis:
+}
+
+.info1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image1 {
+    position: relative;
+    background-image: url(armsupsea.png);
+}
 
 .hidden {
     /*    display: none;*/
