@@ -1,76 +1,13 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Libre Franklin', sans-serif;
-}
-
-#ansoeg img {}
-
-.sectionwrapper img {
-    width: 20vw;
-    height: 20vw;
-}
-
-.sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-
-#menuknap {
-    font-size:
-}
-
+/* ---------- BURGERMENU ---------- */
 header {
+    background-color: #939393;
     display: flex;
     flex-direction: row;
 }
 
-header {
-    background-color: darkgray;
-}
-
-header img {
-    display: block;
-}
-
-#ansoeg {
-    flex-basis:
-}
-
-.ikoner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-
-#ikon1 {
-    flex-wrap: wrap;
-}
-
-#ikon2 {
-    flex-wrap: wrap;
-}
-
-#ikon3 {
-    flex-wrap: wrap;
-}
-
-.info1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.image1 {
-    position: relative;
-    background-image: url(armsupsea.png);
-}
-
 .hidden {
-    /*    display: none;*/
-    /*    transform: scale(0);*/
+    display: none;
+    transform: scale(0);
     transform: translateX(-100%);
     opacity: 0;
 }
@@ -83,8 +20,38 @@ header img {
     list-style-type: none;
     transition: transform .3s;
     transform-origin: top left;
+    font-size: 40px;
+
 }
 
+
+header img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+
+    flex-basis: 300;
+}
+
+footer {
+    background-color: #939393;
+    display: flex;
+    flex-direction: row;
+}
+
+footer img {
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+}
+
+/*
 @media only screen and (min-width: 600px) {
 
     #menuknap {
@@ -99,4 +66,472 @@ header img {
     #menu li {
         display: inline-block;
     }
+}*/
+
+/* ---------- TEKST ---------- */
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+
+/* ---------- UDSEENDE ---------- */
+
+body {
+    margin: 0vw;
+}
+
+#billigt_sikkert,
+#hvad_som_helst,
+#online_studerende {
+    padding: 2vw 11vw;
+}
+
+#billigt_sikkert .txt,
+#hvad_som_helst .txt,
+#online_studerende .txt {
+    margin: 0vw 2vw;
+}
+
+#typer_af_laan {
+    background-color: #F7F7F8;
+}
+
+/* ---------- INDEX ---------- */
+
+
+/* START */
+
+
+#start .sectionwrapper {
+    display: flex;
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#start img {
+    width: 100%;
+    height: 100%;
+}
+
+#start_mob .sectionwrapper {
+    display: flex;
+}
+
+#start_mob img {
+    width: 100%;
+    height: 100%;
+}
+
+/* HVORDAN */
+
+#hvordan .sectionwrapper {
+    padding: 3vw;
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+
+#hvordan .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 1.2vw;
+
+
+}
+
+#hvordan img {
+
+    /*parentindstillinger*/
+    width: 10vw;
+    height: 10vw;
+    align-self: center;
+
+
+}
+
+/* BILLIGT OG SIKKERT */
+
+
+#billigt_sikkert .sectionwrapper {
+    padding: 0.1px;
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#billigt_sikkert .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+
+#billigt_sikkert .txt {
+
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+
+#billigt_sikkert .image {
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#billigt_sikkert img {
+
+    /*parentindstillinger*/
+    width: 100%;
+
+
+}
+
+
+
+#billigt_sikkert .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+
+    /*childinstillinger*/
+
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+
+/* HVAD SOM HELST */
+
+
+#hvad_som_helst .sectionwrapper {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#hvad_som_helst .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+
+#hvad_som_helst .txt {
+
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+
+#hvad_som_helst .image {
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#hvad_som_helst img {
+
+    /*parentindstillinger*/
+    width: 100%;
+
+
+}
+
+
+
+#hvad_som_helst .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+
+    /*childinstillinger*/
+
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+/* TYPER AF LÅN */
+
+
+#typer_af_laan .sectionwrapper {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0vw 0vw 3vw 0vw;
+}
+
+#typer_af_laan .content {
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    align-content: center;
+
+    /*childinstillinger*/
+
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#typer_af_laan .txt {
+    padding: 0vw 0vw 0vw 5vw;
+}
+
+#typer_af_laan h3 {
+    margin: 0.7vw 0vw 0vw 0vw;
+}
+
+
+#typer_af_laan .brodtekst {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#typer_af_laan p {
+    margin: 0vw;
+}
+
+
+#typer_af_laan .check {
+    width: 2.5vw;
+    height: 2.5vw;
+    padding: 0vw 2vw 0vw 0vw;
+}
+
+#typer_af_laan img {
+    width: 100%
+}
+
+/* ONELINE & STUDERENDE */
+
+
+#online_studerende .sectionwrapper {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#online_studerende .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+
+#online_studerende .txt {
+
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+
+#online_studerende .image {
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#online_studerende img {
+
+    /*parentindstillinger*/
+    width: 100%;
+
+
+}
+
+
+
+#online_studerende .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+
+    /*childinstillinger*/
+
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+/* ------------- 2 ------------- */
+
+@media only screen and (min-width: 2px) {
+
+
+    #start img {
+        display: none;
+    }
+}
+
+/* ------------- 590 ------------- */
+
+@media only screen and (min-width: 590px) {
+
+
+    #start img {
+        display: flex;
+    }
+
+    #start_mob img {
+        display: none;
+    }
+}
+
+/* ------------- 1200 ------------- */
+
+@media only screen and (min-width: 1200px) {
+
+    #hvordan,
+    #billigt_sikkert,
+    #hvad_som_helst,
+    #online_studerende {
+
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+
+
 }

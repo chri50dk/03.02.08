@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <title>Redesign af Minifinans' site</title>
+    <title></title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600" rel="stylesheet">
 </head>
 
 <body>
-
+    <script src="script.js"></script>
     <header>
+
         <nav>
             <div id="menuknap">☰</div>
             <ul id="menu" class="hidden">
@@ -27,140 +27,307 @@
             </ul>
 
         </nav>
-        <img src="minifinanslogo.png" alt="">
+        <img src="minifinanslogo.png">
     </header>
 
-    <div class="sectionwrapper">
-        <div id="ansoegformular">
-            <div id="overskrift">
-                <h1>DRØMMELÅN FRA MINIFINANS</h1>
-                <h3>UDBETALING PÅ 1 MINUT - ALLE UGENS DAGE</h3>
+    <!-- START -->
+
+    <section id="start">
+        <div class="et">
+            <img src="graf1.png">
+        </div>
+        <div class="to">
+            <img src="ansoeg.png">
+        </div>
+        <div class="tre">
+            <img src="graf2.png">
+        </div>
+    </section>
+
+    <section id="start_mob">
+        <div class="sectionwrapper">
+            <img src="splash_mobile.png">
+        </div>
+    </section>
+
+    <!-- HVORDAN -->
+
+    <section id="hvordan">
+
+        <h1>Hvordan tager du et lån hos MiniFinans?</h1>
+
+        <div class="sectionwrapper">
+
+            <div class="col">
+                <img src="formular_icon.png">
+                <h2>UDFYLD ANSØGNING</h2>
+                <div class="brodtekst">
+                    <p>Det tager kun 2 minutter at oprette en profil hos Minifinans.
+                    </p>
+                </div>
             </div>
-            <div id="ansoeg">
-                <img src="graf1.png" alt="">
-                <img src="ansoeg.png" alt="">
-                <img src="graf2.png" alt="">
+            <div class="col">
+                <img src="nemid_icon.png">
+                <h2>UNDERSKRIV MED NEMID</h2>
+                <div class="brodtekst">
+                    <p>Alle låneaftaler skal underskrives med NemID elektronisk.
+                    </p>
+                </div>
             </div>
+            <div class="col">
+                <img src="penge_icon.png">
+                <h2>MODTAG PENGENE</h2>
+                <div class="brodtekst">
+                    <p>Så snart vi har godkendt dit lån, sender vi det til straksudbetaling på din NemKonto.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- BILLIGT OG SIKKERT -->
+
+    <section id="billigt_sikkert">
+
+        <div class="sectionwrapper">
+            <div class="top">
+
+                <div class="txt">
+
+                    <div class="brodtekst">
+                        <p>MiniFinans er en dansk långiver, der tilbyder kortfristede lån til danskere. MiniFinans er et brand under Finans 247 ApS. Finans 247 ApS er registreret på Bredgade 75, 2. sal, 1260 København K og er registreret hos Finanstilsynet vedrørende lov om forebyggende foranstaltninger mod hvidvask af udbytte og finansiering af terrorisme § 34, stk. 2.</p>
+
+                        <p>For at optage et lån hos MiniFinans skal du acceptere vores lånevilkår, samt bekræfte lånet med NemID. Du må desuden ikke være listet i RKI.</p>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="armsupsea.png">
+                </div>
+
+            </div>
+
+            <div class="bottom">
+
+                <div class="txt">
+
+                    <div class="brodtekst">
+                        <p>Misligeholdes lånevilkårene eller udebliver tilbagebetalingen, vil du modtage op til tre rykkere på 100,00 kr. samt blive pålagt morarenter. Såfremt du har problemer med at betale lånet tilbage til aftalt tid, bør du ringe til vores kundeservice på 71 71 88 88 eller skrive til kontakt@minifinans.dk. Du har mulighed for at forlænge lånet via din profil i 7, 14 eller 30 dage mod et forlængelsesgebyr. Bemærk at lånet ikke bliver automatisk forlænget ved udeblivende indfrielse.</p>
+
+                        <p>Betales lånet ikke tilbage efter rykkerproceduren vil sagen blive overdraget til ekstern inkasso, hvor yderligere sagsomkostninger vil blive pålagt. Reagerer du stadig ikke, vil du ved en gyldig fogedretsdom blive registreret i Experian (RKI) som dårlig betaler.</p>
+
+                        <p>MiniFinans fraråder at optage lån for at betale et andet lån tilbage.</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="1st_collage.png">
+                </div>
+
+            </div>
+
         </div>
 
-    </div>
-    <div class="sectionwrapper">
-        <h2>SÅDAN GØR DU</h2>
-        <div class="ikoner">
-            <div id="ikon1">
+    </section>
+
+    <!-- HVAD SOM HELST -->
+
+    <section id="hvad_som_helst">
 
 
-                <img src="formular_icon.png" alt="">
-                <h3>UDFYLD ANSØGNING</h3>
-                <p>Det tager kun 2 minutter at oprette en profil hos Minifinans.</p>
+        <div class="sectionwrapper">
+            <div class="top">
+
+                <div class="txt">
+
+                    <div class="brodtekst">
+                        <p>Vi blander os ikke i, hvad du låner penge til. Du bestemmer altså helt selv om pengene skal bruges på sjov og ballade, en dejlig ferie eller nogle regninger, der skal betales. Denne frihed får du ikke ved et almindeligt banklån, hvor du modsat hos os, ofte bliver bedt om at oplyse, hvad de lånte penge skal bruges til.</p>
+
+                        <h3>Forsød din hverdag</h3>
+
+                        <p>Mange af vores kunder hos MiniFinans har fortalt, at pengene der lånes ofte går til ting og sager der forsøder hverdagen, samt hjælp til regningerne og andre uforudsete udgifter – Det er vi rigtig glade for at kunne være en del af. Det er nemlig vores mission, at kunne gøre livet nemmere for folk der har en presset økonomi i en kortere periode. For at de så kan tilbagebetale de lånte penge igen når der kommer løn, feriepenge eller andet pengebeløb. Hos MiniFinans.dk kan du låne penge lige så længe du vil, og vi udbetaler din kredit inden for få minutter til din NemKonto.</p>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="backpackingmountains.png">
+                </div>
+
             </div>
 
-            <div id="ikon2">
-                <img src="nemid_icon.png" alt="">
-                <h3>UNDERSKRIV MED NEMID</h3>
-                <p>Alle låneaftaler skal underskrives med NemID elektronisk.</p>
+            <div class="bottom">
+
+                <div class="txt">
+
+                    <h3>Du bestemmer over pengene</h3>
+
+                    <div class="brodtekst">
+                        <p>Lån penge online til en iPhone eller lån penge til en ny cykel – Det er dig der bestemmer. Det kan være fristende at købe en ny telefon når den udkommer – Desværre udkommer bl.a. telefoner ikke altid til den første i en måned og derfor kan der godt være lidt lavvande på kontoen. Dette er derfor at vi er kommet til verden – netop for at kunne hjælpe med, at finansiere materiale goder her og nu. Hvorfor vente til den første? Man lever jo kun en gang. Men selvfølgelig skal man ikke optage et lån, hvis man ved at man ikke kan tilbage betale dette til den første.</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="2nd_collage.png">
+                </div>
+
             </div>
-            <div id="ikon3">
-                <img src="penge_icon.png" alt="">
-                <h3>MODTAG PENGENE</h3>
-                <p>Så snart vi har godkendt dit lån, sender vi det til straksudbetaling på din NemKonto.</p>
-            </div>
+
         </div>
 
-    </div>
+    </section>
 
-    <div class="sectionwrapper">
+    <!-- TYPER AF LÅN -->
 
-        <div id="info1">
-            <div class="image">
-                <img src="armsupsea.png" alt="">
+    <section id="typer_af_laan">
+
+
+        <div class="sectionwrapper">
+            <div class="content">
+                <h1>TYPER AF LÅN</h1>
+                <div class="txt">
+                    <h3>Minilån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Du har mulighed for at låne mellem 3.000 – 20.000 kroner.</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Hurtig lån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Vi udbetaler med straksoverførsel.</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Mobillån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Tag dit lån direkte fra mobilen. Hurtigt, nemt og sikkert!</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Sms lån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Vi tilbyder nogle af Danmarks bedste SMS lån.</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Online lån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Få dine hverdagsdrømme opfyldt med vores online lån.</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Privatlån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Vi udlåner lån på alle ugens 7 dage.</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Kontantlån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Få op til 20.000 kr. mellem hænderne med vores kredit.</p>
+                </div>
+
+                <div class="txt">
+                    <h3>Kviklån</h3>
+                </div>
+                <div class="brodtekst">
+
+                    <div class="check">
+                        <img src="check.png"></div>
+                    <p>Med vores kviklån får du pengene udbetalt straks.</p>
+                </div>
             </div>
-            <div class="txt">
-                <p>MiniFinans er en dansk långiver, der tilbyder kortfristede lån til danskere. MiniFinans er et brand under Finans 247 ApS. Finans 247 ApS er registreret på Bredgade 75, 2. sal, 1260 København K og er registreret hos Finanstilsynet vedrørende lov om forebyggende foranstaltninger mod hvidvask af udbytte og finansiering af terrorisme § 34, stk. 2.
 
-                    For at optage et lån hos MiniFinans skal du acceptere vores lånevilkår, samt bekræfte lånet med NemID. Du må desuden ikke være listet i RKI. Misligeholdes lånevilkårene eller udebliver tilbagebetalingen, vil du modtage op til tre rykkere på 100,00 kr. samt blive pålagt morarenter. Såfremt du har problemer med at betale lånet tilbage til aftalt tid, bør du ringe til vores kundeservice på 71 71 88 88 eller skrive til kontakt@minifinans.dk. Du har mulighed for at forlænge lånet via din profil i 7, 14 eller 30 dage mod et forlængelsesgebyr. Bemærk at lånet ikke bliver automatisk forlænget ved udeblivende indfrielse.
-
-                    Betales lånet ikke tilbage efter rykkerproceduren vil sagen blive overdraget til ekstern inkasso, hvor yderligere sagsomkostninger vil blive pålagt. Reagerer du stadig ikke, vil du ved en gyldig fogedretsdom blive registreret i Experian (RKI) som dårlig betaler.
-
-                    MiniFinans fraråder at optage lån for at betale et andet lån tilbage.</p>
-            </div>
         </div>
-        <div id="info2">
-            <div class="image">
-                <img src="backpackingmountains.png" alt="">
+
+    </section>
+
+    <!-- ONLINE & STUDERENDE -->
+
+    <section id="online_studerende">
+
+
+        <div class="sectionwrapper">
+            <div class="top">
+
+                <div class="txt">
+
+                    <div class="brodtekst">
+                        <p>MiniFinans er en dansk långiver, der tilbyder kortfristede Vil du gerne have det bedste kviklån, er det en god idé at gøre sig nogle overvejelser først. Bruger du vores låneberegner, kan du se hvad vi kan tilbyde dig.</p>
+
+                        <p>Hos MiniFinans mener vi selv, at vi har et af markedets bedste lån til dig der står og skal bruge penge hurtigt.</p>
+
+                        <p>Du kan låne penge til lige det du står og mangler – Der bliver ikke spurgt, hvad pengene skal bruges til. Det kan være du skal låne penge til en sommerferie, låne penge til iPhone eller noget helt andet – valget er dit.</p>
+
+                        <h3>Fuld gennemsigtighed</h3>
+
+                        <p>Hos MiniFinans, har vi ikke nogle skjulte gebyrer eller renter, fordi vi gerne vil have, at du ved hvad du går ind til, når du optager et lån hos os.</p>
+
+                        <p>Vi har også gjort vores regler og vilkår gennemskuelige for alle vores kunder – dem finder du i toppen af siden, hvor du kan læse alt om hvad vi kan tilbyde dig.</p>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="middleoftheroad.png">
+                </div>
+
             </div>
-            <div class="txt">
-                <p>Vi blander os ikke i, hvad du låner penge til. Du bestemmer altså helt selv om pengene skal bruges på sjov og ballade, en dejlig ferie eller nogle regninger, der skal betales. Denne frihed får du ikke ved et almindeligt banklån, hvor du modsat hos os, ofte bliver bedt om at oplyse, hvad de lånte penge skal bruges til.</p>
+
+            <div class="bottom">
+
+                <div class="txt">
+
+                    <h3>Lån som studerende</h3>
+
+                    <div class="brodtekst">
+                        <p>Som studerende kan kontoen nogle gange lide overlast sidst på måneden, men med vores kviklån kan du selv justere, hvor mange penge du har brug for, og hvor lang løbetid du har brug for. Du ved præcis, hvad lånet koster ved hjælp af vores låneberegner. Der kan komme omkostninger til skolebøger og meget mere, som er uforudset, men samtidig uundværligt for at få det optimale ud af den undervisning man modtager.</p>
+
+                        <h3>De mange fristelser som studerende</h3>
+
+                        <p>Som studerende er der mange fristelser, som kan være vanskelige at takke nej til og ofte kan det være nogle der holder en ude af det sociale fællesskab. Det kan være omkostninger til fester, hvor man skal bruge noget nyt tøj eller lidt ekstra penge til at købe drikkevarer og lignende. Det kunne også være penge til en studietur eller andet. Det er aldrig sjovt, at være den der ikke kan komme med til tingene. Med et online lån fra MiniFinans.dk, så kan det lade sig gøre at holde ”ja-hatten” på og komme med til de ting og arrangementer der foregår omkring en. Det betyder måske, at man skal leve lidt mere sparsomt den efterfølgende måned, men hvad gør man ikke for at være en del af det sociale liv på studiet.</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="3rd_collage.png">
+                </div>
+
             </div>
+
         </div>
-        <div id="info3">
-            <div class="image">
-                <img src="macanddog.png" alt="">
-            </div>
-            <div class="txt">
+
+    </section>
 
 
-                <p>Lån penge online til en iPhone eller lån penge til en ny cykel – Det er dig der bestemmer. Det kan være fristende at købe en ny telefon når den udkommer – Desværre udkommer bl.a. telefoner ikke altid til den første i en måned og derfor kan der godt være lidt lavvande på kontoen. Dette er derfor at vi er kommet til verden – netop for at kunne hjælpe med, at finansiere materiale goder her og nu. Hvorfor vente til den første? Man lever jo kun en gang. Men selvfølgelig skal man ikke optage et lån, hvis man ved at man ikke kan tilbage betale dette til den første.</p>
-            </div>
-        </div>
-        <div id="info4">
-            <div class="image">
-                <img src="coupleguitar.png" alt="">
-                <figure>
-                </figure>
-            </div>
+</body>
+<footer>
+    <img src="minifinanslogo.png">
+</footer>
 
-
-            <div class="txt">
-
-                <p>
-                    Mange af vores kunder hos MiniFinans har fortalt, at pengene der lånes ofte går til ting og sager der forsøder hverdagen, samt hjælp til regningerne og andre uforudsete udgifter – Det er vi rigtig glade for at kunne være en del af. Det er nemlig vores mission, at kunne gøre livet nemmere for folk der har en presset økonomi i en kortere periode. For at de så kan tilbagebetale de lånte penge igen når der kommer løn, feriepenge eller andet pengebeløb. Hos MiniFinans.dk kan du låne penge lige så længe du vil, og vi udbetaler din kredit inden for få minutter til din NemKonto.</p>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="sectionwrapper">
-        <div id="check">
-            <img src="boat.png" alt="">
-            <ul></ul>
-        </div>
-    </div>
-    <div class="sectionwrapper">
-        <div id="info5">
-            <div class="image">
-                <img src="middleoftheroad.png" alt="">
-            </div>
-
-            <div class="txt">
-                <p>Vil du gerne have det bedste kviklån, er det en god idé at gøre sig nogle overvejelser først. Bruger du vores låneberegner, kan du se hvad vi kan tilbyde dig.</p>
-                <h4>Fuld gennemsigtighed</h4>
-                <p>
-                    Hos MiniFinans mener vi selv, at vi har et af markedets bedste lån til dig der står og skal bruge penge hurtigt.
-
-                    Du kan låne penge til lige det du står og mangler – Der bliver ikke spurgt, hvad pengene skal bruges til. Det kan være du skal låne penge til en sommerferie, låne penge til iPhone eller noget helt andet – valget er dit.</p>
-            </div>
-        </div>
-        <div id="info6">
-            <div class="image">
-                <img src="macandbench.png" alt="">
-            </div>
-
-            <div class="txt">
-                <p>Hos MiniFinans, har vi ikke nogle skjulte gebyrer eller renter, fordi vi gerne vil have, at du ved hvad du går ind til, når du optager et lån hos os.</p>
-                <h4>De mange fristelser som studerende</h4>
-                <p>
-                    Vi har også gjort vores regler og vilkår gennemskuelige for alle vores kunder – dem finder du i toppen af siden, hvor du kan læse alt om hvad vi kan tilbyde dig. </p>
-            </div>
-        </div>
-    </div>
-    <div id="footer"></div>
-
-
-
-
-
-
-
-    <script src="script.js"></script>
-</body></html>
+</html>
